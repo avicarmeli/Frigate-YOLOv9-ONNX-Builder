@@ -1,0 +1,9 @@
+detectors:
+  onnx:
+    type: onnx
+    device: cuda
+
+model:
+  path: /models/yolov9-s-416.onnx
+  width: 416
+  height: 416

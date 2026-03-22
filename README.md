@@ -1,6 +1,6 @@
 # Frigate YOLOv9 ONNX Builder
 
-Build optimized YOLOv9 ONNX models for Frigate (0.17+) using a reproducible Docker pipeline.
+Build optimized YOLOv9 ONNX models for Frigate (0.16.3) using a reproducible Docker pipeline.
 
 ---
 
@@ -14,7 +14,7 @@ This repository provides a **fully working pipeline** to build YOLOv9 models in 
 - Allow control over:
   - model size (S / M)
   - input resolution (320 / 416 / 640)
-- Ensure compatibility with **Frigate 0.17+ ONNX detector**
+- Ensure compatibility with **Frigate 0.16.3 ONNX detector**
 
 ---
 
@@ -29,9 +29,9 @@ Frigate ships with default models, but building your own allows:
 
 ---
 
-## Why ONNX (Frigate 0.17+)
+## Why ONNX (Frigate 0.16.3)
 
-Frigate 0.17+ uses ONNX as the **primary inference backend**.
+Frigate 0.16.3+ uses ONNX as the **primary inference backend**.
 
 Benefits:
 
